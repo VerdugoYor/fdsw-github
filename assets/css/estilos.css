@@ -2,6 +2,18 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* cambio color Header que no funcionó en bootstrap52
+#headercolor{
+  background: linear-gradient(to right, hsl(274, 100%, 35%), #008AFD);
+} */
+
+
+/*Logo Principal Header*/
+.img-fluid {
+  width: 8rem;
+}
+
+
 /* Hero Section */
 
 #Hero-Section {
@@ -32,7 +44,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
 
