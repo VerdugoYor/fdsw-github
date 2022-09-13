@@ -8,11 +8,11 @@ body {
 } */
 
 
+
 /*Logo Principal Header*/
 .img-fluid {
   width: 8rem;
 }
-
 
 /* Hero Section */
 
@@ -25,12 +25,34 @@ body {
 
 /* Mis trabajos */
 
+/*  Fondo sin funcionar en mobile-revisar en clases
+  #mis-trabajos{
+  background-image: url("../img/fondo1.png")!important;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: left;
+} */
+
+.card{
+  border-radius: 2rem;
+  padding: 5px;
+  margin: 10px;
+
+  }
+
+  .groupcard{
+margin: 0 2rem;
+  }
+
+  
 #mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 2rem;
 }
+
 
 /* Contacto */
 
