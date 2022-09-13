@@ -32,18 +32,24 @@ body {
   animation: mymove 5s ease-in-out infinite;
 }
 
-.diseno:hover{
+.diseno:hover {
   animation-play-state: paused;
   color: #000000;
 }
 
 @keyframes mymove {
-  from {left: 0px;}
-  to {left: 20px;background-image: blue;}
-  
- }
+  from {
+    left: 0px;
+  }
 
- 
+  to {
+    left: 20px;
+    background-image: blue;
+  }
+
+}
+
+
 
 
 
