@@ -44,7 +44,11 @@ body {
 margin: 0 2rem;
   }
 
-  
+/* Colores Iconos */
+.iconoscolor{
+  color:#3C0480
+}
+
 #mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
