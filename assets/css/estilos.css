@@ -45,8 +45,14 @@ body {
   border-radius: 2rem;
   padding: 5px;
   margin: 10px;
-
+  transition: width 1s, height 1s;
+  transition-timing-function: ease-in-out;
   }
+
+  .card:hover{
+height: 400px;  
+width: 400px;
+    }
 
   .groupcard{
 margin: 0 2rem;
@@ -54,8 +60,14 @@ margin: 0 2rem;
 
 /* Colores Iconos */
 .iconoscolor{
-  color:#3C0480
+  color:#3C0480;
+  
 }
+
+.iconoscolor:hover{
+  color: #31d2f2;
+  }
+
 
 #mis-trabajos .image-top {
   height: 250px;
