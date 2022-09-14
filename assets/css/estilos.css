@@ -37,17 +37,6 @@ body {
   color: #000000;
 }
 
-@keyframes mymove {
-  from {
-    left: 0px;
-  }
-
-  to {
-    left: 20px;
-    background-image: blue;
-  }
-
-}
 
 
 
